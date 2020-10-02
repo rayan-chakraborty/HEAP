@@ -1,2 +1,2 @@
 # HEAP
-Simple implementation of heap using python(test repo)
+Simple implementation of Max heap and Min Heap using Python.
