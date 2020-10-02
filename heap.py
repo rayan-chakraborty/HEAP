@@ -4,8 +4,10 @@ class heap():
         this.type = type
 
     def insert(this, data):
+        
         this.main_array.append(data)
         heap_size = len(this.main_array)
+        # decreasing current heap size
         current = (heap_size-1)
         parent = (current-1)//2
         while(current>0):
